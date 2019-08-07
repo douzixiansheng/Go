@@ -28,3 +28,13 @@ source /etc/profile
 root@FM:/usr/local/software# go version
 go version go1.10.3 linux/amd64
 ```
+
+- 执行src/fib/fib_test.go文件
+```
+root@FM:/home/Go/src/fib# go test -v -run TestFibList
+=== RUN   TestFibList
+1  1 2 3 5 8
+--- PASS: TestFibList (0.00s)
+PASS
+ok      _/home/Go/src/fib       0.002s
+```
