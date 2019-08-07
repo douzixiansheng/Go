@@ -38,3 +38,7 @@ root@FM:/home/Go/src/fib# go test -v -run TestFibList
 PASS
 ok      _/home/Go/src/fib       0.002s
 ```
+
+> 变量赋值
+- 赋值可以进行自动类型推断,例如a:=1
+- 在一个赋值语句中可以对多个变量进行同时赋值

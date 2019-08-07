@@ -17,3 +17,13 @@ func TestFibList(t *testing.T) {
 	}
 	fmt.Println()
 }
+
+func TestExchange(t *testing.T) {
+	a := 1
+	b := 2
+	temp := a
+	a = b
+	b = temp
+	t.Log(a, b)
+
+}
